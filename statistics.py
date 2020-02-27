@@ -1,6 +1,6 @@
-import pandas, matplotlib
+import numpy as np
+import pandas as pd
+import matplotlib as mpl
 
-data = pandas.read_excel('./EN0203AD.xlsx')
+data = pd.read_excel('./EN0203AD.xlsx')
 print(data.describe())
-print(data.head(20))
-print(data.tail(20))
