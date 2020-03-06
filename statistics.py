@@ -15,10 +15,10 @@ data.iloc[:, 4:20].astype('float64', copy=False)
 # print(data.dtypes)
 # print(data.iloc[:,4] + data.iloc[:,5])
 # fig, axes = plt.subplots(nrows=1,ncols=2)
-plottingPosition = 24  #Should be incremented in steps of 8
+plottingPosition = 24  #Should be incremented in steps of 8 or 40, depending on if you want different industrial sectors (8) or different regions (40)
 startPlotPosition = plottingPosition
 plotType = 'line'
-plotCounter = 0     #where to start plotting from
+plotCounter = 0     
 plottingStop = 21   #the number of regions to plot - 1 or it's gonna throw an exception
 subplotRow = 0
 subplotColumn = 0
